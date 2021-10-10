@@ -29,7 +29,7 @@ Router.post("/", upload.single("file") ,async(req,res)=> {
   
    //S3 bucket options
    const bucketOptions = {
-     Bucket: "zomato01",
+     Bucket: "zomato02",
      Key: file.originalname,
      Body: file.buffer,
      ContentType: file.mimetype,
