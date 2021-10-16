@@ -14,6 +14,7 @@ const DeliveryCarousal = () => {
       <DeliveryFoodCategory />
       <DeliveryFoodCategory />
       <DeliveryFoodCategory />
+     
     </div>
     </>
   );
